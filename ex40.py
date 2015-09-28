@@ -10,17 +10,18 @@ class Song(object):
         for line in self.lyrics:
             print line 
 
+# I want this to do the same thing as bulls_on_parade.sing_me_a_song()
 def hbday(i):
-    Song = ["Happy birthday to you", 
+    i = ["Happy birthday to you", 
             "I dont want to get sued",
             "So I'll stop right there"]
-    return Song
+    return i
 
 bulls_on_parade = Song(["They rally around tha family",
                         "With pockets full of shells"])
 
 
-hbday.sing_me_a_song()
+Song.sing_me_a_song(hbday)
 
 
 bulls_on_parade.sing_me_a_song()

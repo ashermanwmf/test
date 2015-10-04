@@ -1,12 +1,14 @@
 import mystuff
 
 
-
+# a class song that is an object
 class Song(object):
 
+    # the class song has a function init that takes two arguments self and lyrics.
     def __init__(self, lyrics):
         self.lyrics = lyrics
 
+    # the class song has a function that interacts with the __init__ function to accept an attribute for lyrics.
     def sing_me_a_song(self):
         for line in self.lyrics:
             print line

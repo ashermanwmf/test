@@ -1,3 +1,4 @@
+# class mystuff which is an object with two functions one init that takes self and one apple that takes self 
 class MyStuff(object):
     
     def __init__(self):
